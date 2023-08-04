@@ -2,6 +2,7 @@ package go_mod_dependency_test
 
 import (
 	"fmt"
+	_ "github.com/gin-gonic/gin"
 	_ "github.com/wazsmwazsm/mortar"
 )
 
