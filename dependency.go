@@ -1,3 +1,10 @@
 package go_mod_dependency_test
 
-import _ "github.com/wazsmwazsm/mortar"
+import (
+	"fmt"
+	_ "github.com/wazsmwazsm/mortar"
+)
+
+func Dependency() {
+	fmt.Println("dependency : github.com/wazsmwazsm/mortar")
+}
